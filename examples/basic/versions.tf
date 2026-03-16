@@ -1,0 +1,18 @@
+terraform {
+  required_version = ">= 1.3"
+
+  required_providers {
+    alicloud = {
+      source  = "hashicorp/alicloud"
+      version = ">= 1.237.0"
+    }
+    random = {
+      source  = "hashicorp/random"
+      version = ">= 3.0"
+    }
+  }
+}
+
+provider "alicloud" {
+  region = "cn-hangzhou"
+}
