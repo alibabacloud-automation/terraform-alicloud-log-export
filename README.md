@@ -59,7 +59,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [alicloud_sls_oss_export_sink.log_export](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/sls_oss_export_sink) | resource |
+| [alicloud_sls_oss_export_sink.log_export](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/sls_oss_export_sink) | resource |
 
 ## Inputs
 
